@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "indunil123.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 9,
+          "column": 24
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -24,7 +24,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1sachithraAPInametestindusnsany",
+            "resourceName": "apigusEast1sachithraAPInametestindusnspost",
             "config": {}
           }
         ],
@@ -86,6 +86,37 @@
           "snsType": 0,
           "subscriptions": []
         }
+      },
+      "apigusEast1sachithraAPInametestindusnspost": {
+        "name": "apigusEast1sachithraAPInametestindusnspost",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "test/indusns",
+          "resourcePath": "/test/indusns",
+          "restMethod": "POST",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "TestM",
+          "stageDeploymentId": "rljyzg",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -123,7 +154,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586173722752
+    "lastSave": 1586177834359
   },
   "VCS_STATE": {
     "provider": "GitHub",
